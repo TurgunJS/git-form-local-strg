@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/cssFolder.css/signUp.css">
+</head>
+<body>
+<div id="containerForms">
+    <form>  
+            <div>
+                <label for="Name">Name</label><br>
+                <input id="name" type="text" placeholder="Enter your name" name="name">
+            </div><br>
+            <div>
+                <label for="Email">Email</label><br>
+                <input id="email" type="email" placeholder="Enter your email">
+            </div><br>
+            <div>
+                <label for="password">Pssword</label><br>
+                <input type = "password" id = "pswd" placeholder="Enter your name">    
+            </div> <br>
+            <div>    
+                <label for="password">Confirm Password</label><br> 
+                <input type = "password" id = "pswd2" placeholder="Retype New Password">
+                <br>
+                <br>
+                <input type="checkbox" onclick="showPaaword()">Show Password 
+            </div><br>
+            <div class="buttonsSubmit">
+                <button id="buttonSubmit" type = "button" onclick="saveData()" >Submit</button>  
+                <button id="buttonReset" type = "reset" value = "Reset" > Reset</button> 
+            </div> 
+        </form>
+</div>
+       <a id="BackMenuSignIn" href="/sign.html">Back Menu</a>
+ 
+    <script src="/scripts/signUp.js"></script>
+</body>
+</html>

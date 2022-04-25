@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/cssFolder.css/signIn.css">
+
+</head>
+<body>
+    <div id="containerSignIn">
+        <form>
+            <div>
+                <label for="Email">Email</label><br>
+                <input id="email" type="email" placeholder="Enter your email">
+            </div><br>
+            <div>    
+                <label for="password">Pssword</label><br>
+                <input type = "password" id = "psw" placeholder="Enter your name"> 
+                <br>
+                <br>
+                <input type="checkbox" onclick="showPaaword()">Show Password    
+            </div> <br>
+            <div class="buttonsSubmit">
+                <button type="button" id="buttonSubmit" onclick = "confirm()">Submit</button>  
+                <button id="buttonReset" type = "reset" value = "Reset" >Reset</button> 
+            </div>       
+        </form>
+    </div>  
+    <a id="BackMenuSignIn" href="/sign.html">Back Menu</a>
+
+    <script src="/scripts/signIn.js"></script>
+</body>
+</html>

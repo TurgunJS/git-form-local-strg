@@ -1,0 +1,61 @@
+#containerForms{
+    width: 300px;
+    background-color: rgba(105, 105, 195, 0.568);
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    border: 0px;
+    border-radius: 6px;
+    margin-top: 8%;
+}
+
+.buttonsSubmit{
+    display: flex;
+    justify-content: space-between;   
+}
+
+#buttonSubmit{
+  width: 48%;
+  background-color: rgba(255, 0, 0, 0.486);
+}
+
+#buttonReset{
+    width: 48%;
+    background-color: rgba(255, 0, 0, 0.486);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(https://i1.wp.com/erlingingi.com/wpnew/wp-content/uploads/2017/10/vtar_aerialFlyingLO2.jpg?fit=1200%2C790&ssl=1);
+    background-size: cover;
+    background-position: center;
+}
+
+#BackMenuSignIn{
+  width: 200px;
+  height: 40px;
+  background-color: rgba(105, 105, 195, 0.568);
+  text-decoration: none;
+  color: aliceblue;
+  padding: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  border-radius: 4px;
+  margin-top: 20px;
+  font-weight: 900;
+} 
+
+#BackMenuSignIn:hover{
+  background-color: rgba(158, 7, 7, 0.678);
+  color: black;
+}
+
+#hrefFromSignUp{
+  text-decoration: none;
+  color: black;
+}

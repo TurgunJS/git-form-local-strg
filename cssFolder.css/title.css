@@ -1,0 +1,86 @@
+body{
+    background: url(https://i.pinimg.com/originals/a0/82/dc/a082dcc2d74c7a172178c0a4e084a85e.jpg);
+    background-size: cover;
+}
+
+h1{
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.369);
+    margin-left: 25%;
+}
+
+#selectSign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    
+}
+
+#Up {
+    width: 200px;
+    height: 40px;
+    margin-right: 20px;
+    border: 0px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.515);
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+#Up:hover {
+   background-color: rgba(165, 42, 42, 0.543); 
+   color: rgba(255, 255, 255, 0.598);
+}
+
+#In {
+    width: 200px;
+    height: 40px;
+    margin-right: 20px;
+    border: 0px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.515);
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+#In:hover {
+    background-color: rgba(165, 42, 42, 0.543);
+    color: rgba(255, 255, 255, 0.598); 
+ }
+
+ #hrefFromSignUp{
+     background-color: aqua;
+ }
+
+ #bodyMainHtml{
+     background: url(https://cdn.shazoo.ru/358656_IEf8yRH2de_368_b1jpg_960x365.jpg);
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+ 
+ }
+
+ h2{
+     font-size: 60px;
+ }
+
+ #containerMain{
+     background-color: rgba(240, 248, 255, 0.565);
+     width: 600px;
+     border: 0px;
+     border-radius: 8px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 100px;
+     
+ }

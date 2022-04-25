@@ -1,0 +1,67 @@
+#containerSignIn {
+    width: 300px;
+    background-color: rgba(105, 105, 195, 0.568);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 0px;
+    border-radius: 6px;
+    margin-top: 10%;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(https://www.kotaku.com.au/wp-content/uploads/sites/3/2014/12/04/pyz2fusiky0nub2xy70h.jpg);
+    background-size: cover;
+
+
+}
+
+.buttonsSubmit{
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    
+}
+
+#buttonSubmit{
+  width: 48%;
+  background-color: rgba(255, 0, 0, 0.486);
+
+}
+#buttonReset{
+    width: 48%;
+    background-color: rgba(255, 0, 0, 0.486);
+  }
+
+#BackMenuSignIn{
+    width: 200px;
+    height: 40px;
+    background-color: rgba(105, 105, 195, 0.568);
+    text-decoration: none;
+    color: aliceblue;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 4px;
+    margin-top: 20px;
+} 
+
+#BackMenuSignIn:hover{
+    background-color: rgba(158, 7, 7, 0.678);
+    color: black;
+}
+
+#mainHtml{
+    text-decoration: none;
+    color: black;
+}
