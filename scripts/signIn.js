@@ -50,3 +50,6 @@ function confirm(){
         } 
     
     }
+
+
+    console.log('test')
